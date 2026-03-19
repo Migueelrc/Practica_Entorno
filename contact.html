@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Web - Contacto</title>
+
+</head>
+<body>
+    <header>
+        <h1>Mi Web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Sobrenosotros.html">Sobre nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacto</h2>
+        <p>Si quieres ponerte en contacto con nosotros, puedes rellenar el siguiente formulario:</p>
+
+        <form action="#" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Número de teléfono:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" placeholder="Ej: 612345678" required><br><br>
+
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© César García y Miguel Rodríguez</p>
+    </footer>
+</body>
+</html>
